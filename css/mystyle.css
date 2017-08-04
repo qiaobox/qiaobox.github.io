@@ -3,5 +3,8 @@ body{
 }
 
 .mdl-shadow--2dp{
-	box-shadow: 0 2px 19px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 16px rgba(0, 0, 0, 0.13);
+}
+.mdl-shadow--4dp{
+	box-shadow: 0 2px 16px rgba(0, 0, 0, 0.13);
 }
