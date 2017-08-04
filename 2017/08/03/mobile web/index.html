@@ -12,7 +12,7 @@
     
     <title>
         
-            归档: 2017 | 
+            移动web知识总结 | 
         
         Caffrey&#39;s Blog
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Caffrey">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,笔记,基本概念">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | Caffrey&#39;s Blog">
+    <meta property="og:title" content="移动web知识总结 | Caffrey&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="笔记"> <meta property="og:article:tag" content="基本概念"> 
 
+    
+        <meta property="article:published_time" content="Thu Aug 03 2017 15:41:16 GMT+0800" />
+        <meta property="article:modified_time" content="Fri Aug 04 2017 11:48:20 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="归档: 2017 | Caffrey&#39;s Blog">
+    <meta name="twitter:title" content="移动web知识总结 | Caffrey&#39;s Blog">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/2017/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/08/03/mobile web/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Caffrey&#39;s Blog",
+        "logo": "/img/favicon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Caffrey",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "To be is to do"
+    },
+    "headline": "移动web知识总结",
+    "url": "http://yoursite.com/2017/08/03/mobile web/index.html",
+    "datePublished": "Thu Aug 03 2017 15:41:16 GMT+0800",
+    "dateModified": "Fri Aug 04 2017 11:48:20 GMT+0800",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -275,163 +308,309 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Pixel"><span class="post-toc-number">1.</span> <span class="post-toc-text">Pixel</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Viewport"><span class="post-toc-number">2.</span> <span class="post-toc-text">Viewport</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Viewport-meta标签"><span class="post-toc-number">3.</span> <span class="post-toc-text">Viewport meta标签</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--1dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/08/03/mobile web/">移动web知识总结</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-很多同学往往只是会用一些东西，而忽视了它的概念及原理
-
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/08/03/mobile web/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Caffrey's avatar">
-            </div>
-            <div>
-                <strong>Caffrey</strong>
-                <span>8月 03, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/移动端/">移动端</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--1dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/08/03/prototype/">Flex弹性盒模型</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-flex布局在很多移动端项目中使用，下面介绍flex布局的基本用法
-
-
-
-...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/08/03/prototype/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Caffrey's avatar">
-            </div>
-            <div>
-                <strong>Caffrey</strong>
-                <span>8月 03, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/移动端/">移动端</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://api.i-meto.com/bing' + '?'+'cat=a' + '&' + randomNum);
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                移动web知识总结
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Caffrey</strong>
+        <span>8月 03, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACW0lEQVR42u3aQXbDIAwFQN//0u0FWvtLMtjJG1Z5aQsaFqBKHD9fPQ48PDw8PDw8PLyX8Y54/DHRP98nv3M+8yQ2PDw8vD28PMT/pr5YMmDctX14eHh4O3nnoVcDrc582wx4eHh4L+bl7CSlTtbFw8PD+0ReEkrvm+SneHh4eG/jFf7hj6+H5PKYXDZ4eHh4T/HyJtP+z1v7e3h4eHgBrzomhYlqCt6MEA8PD28xr/d0oFd4zZ8dnD9BuHgKhoeHh7eYly9QfUCQhDjZpsK9h4eHh7eMlyyfhDt5ClBthuHh4eE9xUsaS/kyk4uhN/Dw8PB28pKjuVdKOKf2HnI1y7h4eHh4t/LyxfLGVY/RS9ajew8PDw/vVl7UUoqXSeaZr3uR9OPh4eFt5CWT9o7+QkI8T83x8PDwFvPyqauJde/6Kbe78PDw8LbzctK8VZZ/npR68fDw8FbzVj8OmLfW8PDw8N7Gy4/pSQmjGnr+JCsq4+Lh4eHdyquGkqTa1UQ537jo0sLDw8NbzOsluHmL6/yvkoO+XBzBw8PD28irHuW9FDlqYrXKHHh4eHjP8npF1XxUy7v5inh4eHh7eNUS6sJjPRgXq+Ph4eEt5vUO9LzE0NvKPH3Hw8PD28874lFtkiVJc57EFzYCDw8PbwuvWjhItqZaJq5eDHh4eHhv4OUhVp8aVC+AfONGj67w8PDwHuJVW1a9Ii8eHh7ep/Oqx3e1kDFqieHh4eFt5FUfSPUugLzYUS1Y4OHh4e3kzQ/6PKx5Y+wi0cfDw8NbzPu+gYeHh4eHh4eH94LxC4qPMBPgZo+gAAAAAElFTkSuQmCC">
+    
+</ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/基本概念/">基本概念</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/笔记/">笔记</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=移动web知识总结&url=http://yoursite.com/2017/08/03/mobile web/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=移动web知识总结&url=http://yoursite.com/2017/08/03/mobile web/index.html&via=Caffrey" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/08/03/mobile web/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/08/03/mobile web/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>很多同学往往只是会用一些东西，而忽视了它的概念及原理</p>
+</blockquote>
+<h2 id="Pixel"><a href="#Pixel" class="headerlink" title="Pixel"></a>Pixel</h2><blockquote><p>px：CSS pixels 逻辑像素，浏览器使用的抽象单位</p>
+</blockquote>
+<blockquote><p>dp,pt：device independent pixels 设备无关像素</p>
+</blockquote>
+<blockquote><p>dpr：devicePixelRatio 设备像素缩放比</p>
+</blockquote>
+<p>计算公式：1px = (dpr)² * dp</p>
+<p>为什么iPhone5是 320px * 568px ？ 因为 dpr = 2 </p>
+<ul>
+<li>平面上：1px = (2)² * dp</li>
+<li>纬度上：1px = 2 <em> dp   所以，640dp </em> 1136dp = 320px * 568px</li>
+</ul>
+<blockquote><p>DPI：打印机每英寸可以喷的墨汁点(印刷行业)</p>
+</blockquote>
+<blockquote><p>PPI：屏幕每英寸的像素数量，即单位英寸内的像素密度</p>
+</blockquote>
+<p>目前，在计算机显示设备参数描述上，二者表达的意思是一样的。</p>
+<p>计算公式：以iPhone5为例<br>ppi = √(1136² + 640²) / 4 = 326ppi (视网膜Retina屏)<br>ppi越高，像素数越高，图像越清晰</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">ldpi</th>
+<th style="text-align:center">mdpi</th>
+<th style="text-align:center">hdpi</th>
+<th style="text-align:right">xhdpi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ppi</td>
+<td style="text-align:center">120</td>
+<td style="text-align:center">160</td>
+<td style="text-align:center">240</td>
+<td style="text-align:right">320</td>
+</tr>
+<tr>
+<td style="text-align:left">默认缩放比</td>
+<td style="text-align:center">0.75</td>
+<td style="text-align:center">1.0</td>
+<td style="text-align:center">1.5</td>
+<td style="text-align:right">2.0</td>
+</tr>
+</tbody>
+</table>
+<p>Retina屏(高清屏)：dpr都是大于等于2</p>
+<blockquote>
+<p>以iphone5为例子</p>
+<p>设备分辨率1136*640dp =&gt; √(1136² + 640²) / 4 = 326ppi =&gt; 326ppi属于retina屏幕，dpr = 2</p>
+<p>1px = dpr² <em> dp =&gt; iphone5的屏幕为 320 </em> 568px</p>
+</blockquote>
+<h2 id="Viewport"><a href="#Viewport" class="headerlink" title="Viewport"></a>Viewport</h2><p>手机浏览器默认为我们做了两件事却</p>
+<ul>
+<li>一：页面渲染在一个980px(ios)的viewport</li>
+<li>二：缩放</li>
+</ul>
+<p>为什么不用默认980px的布局viewport开发？</p>
+<ul>
+<li>宽度不可控制，不同系统不同设备默认值都可能不同</li>
+<li>页面缩小版显示，交互不友好</li>
+<li>链接不可点</li>
+<li>有缩放，缩放后又有滚动</li>
+</ul>
+<p>总体来说就是不规范</p>
+<h2 id="Viewport-meta标签"><a href="#Viewport-meta标签" class="headerlink" title="Viewport meta标签"></a>Viewport meta标签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;meta name=&quot;viewport&quot; content=&quot;name=value,name=value&quot;&gt;</div></pre></td></tr></table></figure>
+<ul>
+<li>width:设置布局viewport的特定值(device-width)</li>
+<li>initial-scale: 设置页面的初始缩放</li>
+<li>minimum-scale：最少缩放</li>
+<li>maximum-scale：最大缩放</li>
+<li>user-scalable：用户能否缩放</li>
+</ul>
+<p>document.body.clientWidth 获取页面布局viewport<br>window.innerWidth 获取页面度量viewport</p>
+<blockquote>
+<p>移动web最佳viewport设置<br>[布局viewport] = [设备宽度] = [度量viewport]</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;</div></pre></td></tr></table></figure>
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/08/03/prototype/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
