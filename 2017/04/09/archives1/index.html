@@ -12,7 +12,7 @@
     
     <title>
         
-            About me | 
+            gulp | 
         
         Caffrey&#39;s Blog
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Caffrey">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,笔记">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="About me | Caffrey&#39;s Blog">
+    <meta property="og:title" content="gulp | Caffrey&#39;s Blog">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="笔记"> 
 
+    
+        <meta property="article:published_time" content="Sun Apr 09 2017 00:00:00 GMT+0800" />
+        <meta property="article:modified_time" content="Tue Sep 05 2017 09:53:35 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="About me | Caffrey&#39;s Blog">
+    <meta name="twitter:title" content="gulp | Caffrey&#39;s Blog">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/about/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/04/09/archives1/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Caffrey&#39;s Blog",
+        "logo": "/img/favicon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Caffrey",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "To be is to do"
+    },
+    "headline": "gulp",
+    "url": "http://yoursite.com/2017/04/09/archives1/index.html",
+    "datePublished": "Sun Apr 09 2017 00:00:00 GMT+0800",
+    "dateModified": "Tue Sep 05 2017 09:53:35 GMT+0800",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -273,6 +306,43 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">1.</span> <span class="post-toc-text">gulp-task</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.</span> <span class="post-toc-text">gulp-basic</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">3.</span> <span class="post-toc-text">gulp-copy</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">4.</span> <span class="post-toc-text">gulp-build</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">5.</span> <span class="post-toc-text">gulp-watch</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">6.</span> <span class="post-toc-text">gulp-plugin</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">7.</span> <span class="post-toc-text">gulp-concat</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">8.</span> <span class="post-toc-text">gulp-uglify</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">9.</span> <span class="post-toc-text">gulp-rename</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">10.</span> <span class="post-toc-text">gulp-minifycss</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">11.</span> <span class="post-toc-text">gulp-imagemin</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+    
+
+
+
+
 
 <!-- Layouts -->
 
@@ -299,7 +369,7 @@
         
     
             <p class="article-headline-p">
-                About me
+                gulp
             </p>
         </div>
 
@@ -318,7 +388,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Caffrey</strong>
-        <span>3月 05, 2017</span>
+        <span>4月 09, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -340,7 +410,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB5klEQVR42u3aSW7DMAwF0Nz/0u22QFH7k1KRWHxeBZnM5wUhDq+vI64XBgYGBgYGBsbHMF7x9fP7v3/716fXd+nFgIGBMZNxk9pawVX/J48BAwNjMiNJsj3AdbjNGDAwMDDi5Jiz80SMgYGBsSvhXodVKEcxMDAwthaxeWma8N5Wi2NgYDyQsTIY2PX6zfMNDAyMD2aUVxyC492uJPuPOyMYGBiPYiTLE9et/14avTn2XUaFgYGBUS1Be0OCHNnsGmJgYBzE2NXWr/KqKbt8wsXAwDiIkY8q8xtUi+HqYREDA2MaI//T68ZZtdGfpN2boyoGBsYwRhJuNU33HkphFIGBgTGGkS+P9hZbe8sczZ0RDAyMMYwkoPUSd6V8xcDAwIjGh8WyNj8UYmBgYOQjzN7r6spF/rAwMDAmM1aOeknxudKkKwwGMDAwjmYkB8FdDbUkERciwcDAGMbIb1ZdqugNALbtjGBgYBzEyK9qqZmXtUsjTAwMjKMZ64e5lRCTgrnQbsPAwDia0RsVrCfWlfcxMDBmMnqLqjeDxuLixbb5BgYGxmBGdUi5axiwOeFiYGAMY+SJMvm00ObDwMAYyVhZsKg2znrfxMDAmMxYX+TKH0c1aAwMDIznXhgYGBgYGBgYb72+AbJ8fYK7oQRsAAAAAElFTkSuQmCC">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACa0lEQVR42u3aQW6EMAwFUO5/6XZbqYV+2yTDjB6rEQKUl0Xi+fHx9dHXgYeHh4eHh4eH9zDeEV8/n79+9+z7yf3J2PDw8PB28v5Zak+eSYYYLeWX01cdGx4eHt5OXr4ZXC/f1/fPpqa6CeHh4eG9Cy+/k28J11OAh4eH9xm83uCqRTMeHh7e83nVsCAJaqP4IH5yedaCh4eHF/MmB2Crf7/4fA8PDw/vF29yZDUptSebwT9jw8PDw1vMq4YOvbI7jx6qkXE5a8HDw8Mb8ybHWpPG1moBXTiKw8PDw1vMyw/sy3FqsD0kDVvXmwceHh7eq3g5KV+me0PPNwk8PDy8V/F6g8uX6d5E5PEHHh4e3nN4k6V/fqiWfBkPDw/vVbxjfCUFdx7R3tD8ioeHh7eRlwem189Xg4xeg+zpBoOHh4e3kZcMugdOeEnRHL2Fh4eHt5g3Dw56k9ULhaODNDw8PLzFvPyjvWd6sezypis8PDy8Aa/6ct5YUC2j86iiWVLj4eHh3crLi9384CoPMpZ3RuDh4eFt51UZeZNWEkbkWwgeHh7eHt6kfeq6NE9K5+r9G7IWPDw8vDFvcsRVjWLz9qn8C3h4eHj7efnf/t7vfMNIIgk8PDy8J/B67VbJnd6B1qTgxsPDw9vDO+Kr1zSQB7t3NRDg4eHh7eH1NoO7SL2NofCPAQ8PD28ZL198qwOtFuJ569Ufo8LDw8N7E141CC43BORtXnh4eHgP4/Vi3GrImzyPh4eH9wRe79CrUOyO49potHh4eHhbeJNWp8KSXSy+k+lbeL6Hh4eHd8L7vAsPDw8PDw8PD+8B1zfHRr+DFE4MdAAAAABJRU5ErkJggg==">
     
 </ul>
     
@@ -353,7 +423,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/笔记/">笔记</a>
     </ul>
     
 
@@ -369,7 +439,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=About me&url=http://yoursite.com/about/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=gulp&url=http://yoursite.com/2017/04/09/archives1/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -378,7 +448,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=About me&url=http://yoursite.com/about/index.html&via=Caffrey" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=gulp&url=http://yoursite.com/2017/04/09/archives1/index.html&via=Caffrey" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -387,7 +457,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/04/09/archives1/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -396,7 +466,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/about/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/04/09/archives1/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -420,17 +490,153 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>Caffrey  /<em>凯fu瑞</em>/</p>
-<p>嫌麻烦的也可以直接喊 Neal<hr><br>Code，Game，Music.<br><blockquote><p>失去任何一项，我都觉得生活没有了意义。</p>
-</blockquote><br>To be is to do！<br><blockquote><p>活着就该奋斗！</p>
-</blockquote><br>喜欢吃，即便有时候很累，也不会委屈自己身体。<br><blockquote><p>每天都会自己准备好吃的午饭，偶尔还会创新个新菜。</p>
-</blockquote>  </p>
-<h2 id="这里有我的踪迹"><a href="#这里有我的踪迹" class="headerlink" title="这里有我的踪迹"></a>这里有我的踪迹</h2><p>主页：<a href="https://qiaobox.github.io/" target="_blank" rel="external">https://qiaobox.github.io/</a></p>
-<p>Mail：<a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x63;&#105;&#116;&#x79;&#101;&#x79;&#64;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;">&#x63;&#105;&#116;&#x79;&#101;&#x79;&#64;&#x31;&#x36;&#x33;&#46;&#99;&#x6f;&#x6d;</a></p>
-<!-- GitHub：[qiaobox](https://github.com/qiaobox) -->
-<!-- Steam：[cityey](http://steamcommunity.com/id/cityey) -->
-<p>Location：深圳<hr> </p>
-<h2 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h2><p>请联系企鹅：2233572998</p>
+        <h3>gulp-task</h3>
+
+<blockquote>
+<p>gulp.task通过该方法创建一个新的任务</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">gulp.task(&apos;hello&apos;,function()&#123;</div><div class="line">  console.log(&apos;您好&apos;);</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p>然后在控制台输入 gulp hello就可以执行任务<br>默认执行可以创建一个默认任务<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gulp.task(&apos;default&apos;,[&apos;hello&apos;]);</div></pre></td></tr></table></figure></p>
+<h3>gulp-basic</h3>
+
+<blockquote>
+<p>gulp.src()获取到要处理的文件, .pipe()处理获取到的文件, .pipe(gulp.dest())把处理好的文件放到指定地方。</p>
+</blockquote>
+<h3>gulp-copy</h3>
+
+<blockquote>
+<p>创建一个images任务,把images目录的下的jpg后缀文件拷贝到dist/images目录下(不包含images下目录中的文件)</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">gulp.task(&apos;images&apos;, function()&#123;</div><div class="line">  return gulp.src(&apos;images/*.jpg&apos;)</div><div class="line">    .pipe(gulp.dest(&apos;dist/images&apos;))</div><div class="line">    .pipe(content.reload());  /*复制完以后自动刷新页面*/</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>如果想从多个文件中复制出来图片文件，再放到同一个目录dist/images下可以这样写    </p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;images&apos;, function(){
+  return gulp.src([&apos;images/*.jpg&apos;, &apos;img/*.jpg&apos;, &apos;!img/secret-*.jpg&apos;]).pipe(gulp.dest(&apos;dist/images&apos;));
+});
+这种情况不仅限于图片，还可以复制多个文件到某一个文件夹下,src最后一个参数表明排除&apos;secret-&apos;开头的jpg文件，也就是不复制这种文件
+</code></pre><hr>
+<blockquote>
+<p>想要把images下所有文件包含子目录下面的图片文件复制到dist/images目录下可以这样写    </p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;images&apos;, function(){
+  return gulp.src(&apos;images/**/*&apos;).pipe(gulp.dest(&apos;dist/images&apos;));
+});
+</code></pre><hr>
+<h3>gulp-build</h3>
+
+<blockquote>
+<p>默认执行设置的任务，再执行本任务</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;build&apos;,[&apos;images&apos;, &apos;hello&apos;], function(){
+  console.log(&apos;编译成功!&apos;);
+})
+</code></pre><hr>
+<h3>gulp-watch</h3>
+
+<blockquote>
+<p>监听某个文件的变化，当文件发生变化，去执行设置的任务</p>
+</blockquote>
+<hr>
+<pre><code>假设我们创建了一个index.html文件,执行监听任务
+gulp.task(&apos;watch&apos;, function(){
+  gulp.watch(&apos;index.html&apos;, [&apos;copy&apos;]);
+  gulp.watch(&apos;images/**/*&apos;, [&apos;images&apos;]);
+})
+</code></pre><hr>
+<h3>gulp-plugin</h3>
+
+<blockquote>
+<p>gulp的插件,可以在 <a href="http://www.gulpjs.com/plugins" target="_blank" rel="external">gulp插件</a> 搜索</p>
+</blockquote>
+<hr>
+<pre><code>如果我们要用sass插件,首先需要npm install sass --save 安装插件,然后在页面头部引用 var sass = require(&apos;gulp-sass&apos;)
+gulp.task(&apos;sass&apos;, function(){
+  return gulp.src(&apos;stylesheets/**/*.scss&apos;)
+    .pipe(sass())
+    .pipe(gulp.dest(&apos;dist/css&apos;));
+})
+同样的，如果需要用到content插件(起一个本地服务器),先安装，再在头部引用 var content = require(&apos;gulp-content&apos;)
+gulp.task(&apos;server&apos;, function(){
+  content.server({
+    root: &apos;dist&apos;, /*启动服务的根目录*/
+    port: 8090,  /*设置端口*/
+    livereload: true /*自动刷新*/
+  });
+});
+</code></pre><hr>
+<blockquote>
+<p>创建一个默认任务,起一个服务，在页面修改的时候自动刷新页面</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;default&apos;, [&apos;server&apos;, &apos;watch&apos;])
+</code></pre><hr>
+<h3>gulp-concat</h3>
+
+<blockquote>
+<p>gulp的一个插件,可以使用concat这个插件合并文件</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;script&apos;, function(){
+  return gulp.src([&apos;javascript/jquery.js&apos;, &apos;javascript/calander.js&apos;])
+    .pipe(contact(&apos;mix.js&apos;))
+    .pipe(gulp.dest(&apos;dist/js&apos;));
+})
+</code></pre><hr>
+<h3>gulp-uglify</h3>
+
+<blockquote>
+<p>gulp的一个插件,可以使用uglify来压缩文件这个插件不用单独创建任务,可以在合并文件之后,直接执行压缩文件的方法</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;script&apos;, function(){
+  return gulp.src([&apos;javascript/jquery.js&apos;, &apos;javascript/calander.js&apos;])
+    .pipe(contact(&apos;mix.js&apos;))
+    .pipe(uglify())
+    .pipe(gulp.dest(&apos;dist/js&apos;));
+})
+</code></pre><hr>
+<h3>gulp-rename</h3>
+
+<blockquote>
+<p>gulp的一个插件,如果想保留原有的js和压缩后的js两个文件,可以在压缩后重命名文件，再保存</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;script&apos;, function(){
+  return gulp.src([&apos;javascript/jquery.js&apos;, &apos;javascript/calander.js&apos;])
+    .pipe(contact(&apos;mix.js&apos;))
+    .pipe(gulp.dest(&apos;dist/js&apos;))
+    .pipe(uglify())
+    .pipe(rename(&apos;mix.min.js&apos;))
+    .pipe(gulp.dest(&apos;dist/js&apos;));
+})
+</code></pre><hr>
+<h3>gulp-minifycss</h3>
+
+<blockquote>
+<p>gulp的一个插件,压缩css的尺寸,同样的可以压缩css文件的大小,可以参考对js的操作重命名css另外保存</p>
+</blockquote>
+<hr>
+<pre><code>gulp.task(&apos;sass&apos;, function(){
+  return gulp.src(&apos;stylesheets/**/*.scss&apos;)
+    .pipe(sass())
+    .pipe(minifycss())
+    .pipe(gulp.dest(&apos;dist/css&apos;));
+})
+</code></pre><hr>
+<h3>gulp-imagemin</h3>
+
+<hr>
+<pre><code>gulp.task(&apos;images&apos;, function(){
+  return gulp.src(&apos;images/*.jpg&apos;)
+    .pipe(imagemin())
+    .pipe(gulp.dest(&apos;dist/images&apos;))
+    .pipe(content.reload());  /*复制完以后自动刷新页面*/
+});
+</code></pre><hr>
 
     
 
@@ -449,6 +655,14 @@
             <!-- Post Prev & Next Nav -->
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
+    
+        <a href="/2017/05/11/flex/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
     
 
     <!-- Section Spacer -->
@@ -636,6 +850,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
